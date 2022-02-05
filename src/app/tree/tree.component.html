@@ -1,4 +1,14 @@
+
+<p style="margin-left: 150px;"> Customize Treeview Example With Demo Data </p>
+
+<div style="width:500px; margin-left: 100px; border: 1px solid;">
+  <ejs-treeview id="myTreeExample" [fields]="treeFieldsExample" [showCheckBox]="false" [allowDragAndDrop]="true"
+    [allowEditing]="true" (nodeDragStop)='dragStop($event)'  (nodeDragging)='nodeDrag($event)'></ejs-treeview>
+</div>
+
+<p style="margin: 100px 150px 0px 150px"> Customize Treeview Example </p>
+
 <div style="width:500px; margin-left: 100px;">
   <ejs-treeview id="myTree" [fields]="treeFields" [showCheckBox]="false" [allowDragAndDrop]="true"
-    [allowEditing]="false"></ejs-treeview>
+    [allowEditing]="true" (nodeDragStop)='dragStop($event)'  (nodeDragging)='nodeDrag($event)'></ejs-treeview>
 </div>

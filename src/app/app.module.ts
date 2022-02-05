@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { TreeComponent } from './tree/tree.component';
 import { TreeViewComponent } from '@syncfusion/ej2-angular-navigations';
 
+import { HttpModule } from '@angular/http';
+
+
 
 
 @NgModule({
@@ -15,7 +18,8 @@ import { TreeViewComponent } from '@syncfusion/ej2-angular-navigations';
     TreeViewComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
